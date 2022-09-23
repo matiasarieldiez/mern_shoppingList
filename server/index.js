@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors());
 
 const CONNECTION_URL =
-    "mongodb+srv://matiasarieldiez:6231Mongo00.@atlascluster.6luhsnp.mongodb.net/?retryWrites=true&w=majority";
+    "mongodb+srv://<username>:<password>@atlascluster.6luhsnp.mongodb.net/?retryWrites=true&w=majority";
 
 const PORT = process.env.PORT || 5000;
 
